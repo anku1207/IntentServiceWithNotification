@@ -13,9 +13,6 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.intentservice.service.CustomServie
 import android.app.Activity
 
-
-
-
 class MainActivity : BaseActivity() {
     lateinit var customEvent :CustomEvent
     lateinit var textview:TextView
@@ -30,9 +27,6 @@ class MainActivity : BaseActivity() {
 
         val intent =Intent(this,CustomServie::class.java)
         startService(intent)
-
-
-
     }
 
     override fun onResume() {
@@ -40,21 +34,18 @@ class MainActivity : BaseActivity() {
         LocalBroadcastManager.getInstance(this).registerReceiver(customEvent, IntentFilter("custom-event"))
     }
 
-
     override fun onPause() {
         super.onPause()
         LocalBroadcastManager.getInstance(this).unregisterReceiver(customEvent)
     }
 
     fun uiUpdate(data :String){
-
     }
 
     inner class CustomEvent :BroadcastReceiver(){
         override fun onReceive(p0: Context?, p1: Intent?) {
             textview.text=p1?.getStringExtra("data").toString()
         }
-
     }
 }
 
