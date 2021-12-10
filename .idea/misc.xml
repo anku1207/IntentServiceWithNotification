@@ -3,7 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="UCOBank_Module/src/main/res/layout/activity_bank_maps.xml" value="0.25" />
+        <entry key="UCOBank_Module/src/main/res/layout/activity_login.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/activity_main.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/activity_splash_screen.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/app_bar_main.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/appointment_count_item_layout.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/apt_item_layout.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/bottomsheet_filter_search_layout.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/bottomsheet_services.xml" value="0.19322916666666667" />
+        <entry key="UCOBank_Module/src/main/res/layout/bottomsheet_time_slot.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/content_main.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/customer_type_item.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_add_appointment.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_appointment_describe.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_change_password.xml" value="0.12129629629629629" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_customer_type.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_dashboard.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_forgot_password.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_get_mobile_number.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_login.xml" value="0.67" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_logout_dialog.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_maps.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_profile_.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_register.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_search.xml" value="0.19322916666666667" />
+        <entry key="UCOBank_Module/src/main/res/layout/fragment_splash_screen.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/nearest_places_item_layout.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/response_dialog_design.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/service_item_layout.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/layout/time_slot_item_layout.xml" value="0.14166666666666666" />
+        <entry key="UCOBank_Module/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16574074074074074" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
+        <entry key="testmodule/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="testmodule/src/main/res/layout/module_activity_main.xml" value="0.12129629629629629" />
       </map>
     </option>
   </component>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        tools:context=".ui.fragment.main.AddAppointmentFragment">
+
+
+        <ScrollView
+            android:layout_above="@+id/ll_add_apt_footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/ll_add_apt_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ll_add_apt_footer"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/ll_add_apt_footer"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:id="@+id/til_mobile_number"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:endIconDrawable="@drawable/ic_baseline_arrow_drop_down_24"
+                    app:startIconDrawable="@drawable/ic_baseline_account_balance_24"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:focusable="false"
+                        android:id="@+id/tie_mobile_number"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile Number"
+                        android:editable="false"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/til_email_id"
+                    android:layout_margin="15dp"
+                    app:endIconDrawable="@drawable/ic_baseline_arrow_drop_down_24"
+                    app:startIconDrawable="@drawable/ic_baseline_settings_backup_restore_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:focusable="false"
+                        android:id="@+id/tie_email_id"
+                        android:layout_height="wrap_content"
+                        android:hint="Email Id"
+                        android:editable="false"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/til_user_name"
+                    android:layout_margin="15dp"
+                    app:endIconDrawable="@drawable/ic_baseline_arrow_drop_down_24"
+                    app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:id="@+id/tie_user_name"
+                        android:hint="User Name"
+                        android:editable="false"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                    android:layout_width="match_parent"
+                    android:id="@+id/til_change_password"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:endIconDrawable="@drawable/ic_baseline_arrow_drop_down_24"
+                    app:startIconDrawable="@drawable/ic_baseline_calendar_today_24">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/tie_change_password"
+                        android:layout_height="wrap_content"
+                        android:hint="Change Password" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_add_apt_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:text="Update"
+                android:id="@+id/btn_update_profile"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_profile_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.5"
+                android:text="Cancel"
+                app:backgroundTint="@color/md_red_A700" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>
+

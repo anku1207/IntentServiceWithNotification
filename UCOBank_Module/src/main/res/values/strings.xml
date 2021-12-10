@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UCOBank</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="didn_t_have_account_register_now">Didn\'t have account ? Register Now</string>
+    <string name="next">next</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="already_registered_sign_in">Already registered ? Sign In</string>
+    <string name="search">Search</string>
+    <string name="type_the_code_below">Type the code below</string>
+    <string name="or">OR</string>
+    <string name="enter_mobile_no">Enter Mobile No.</string>
+
+</resources>
