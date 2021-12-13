@@ -9,4 +9,5 @@ dependencyResolutionManagement {
 rootProject.name = "IntentService"
 include ':app'
 include ':app', ':testmodule'
-include ':UCOBank_Module'
+/*
+include ':app','UCOBank_Module'*/

@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../.gradle/caches/transforms-3/1b8bc339124e0f905ad09b65141f5755/transformed/jetified-UCOBank_Module-debug/res/layout/activity_login.xml" value="0.1" />
+        <entry key="../../.gradle/caches/transforms-3/1b8bc339124e0f905ad09b65141f5755/transformed/jetified-UCOBank_Module-debug/res/layout/content_main.xml" value="0.1" />
+        <entry key="../../.gradle/caches/transforms-3/211272c1d2673e385b12cad2bd0b5409/transformed/jetified-UCOBank_Module-debug/res/layout/activity_login.xml" value="0.21" />
         <entry key="UCOBank_Module/src/main/res/layout/activity_bank_maps.xml" value="0.25" />
         <entry key="UCOBank_Module/src/main/res/layout/activity_login.xml" value="0.14166666666666666" />
         <entry key="UCOBank_Module/src/main/res/layout/activity_main.xml" value="0.14166666666666666" />
