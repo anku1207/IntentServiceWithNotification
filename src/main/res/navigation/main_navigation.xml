@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="in.cbslgroup.ucobank.ui.fragment.main.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_nav_dashboard_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_addAppointmentFragment"
+            app:destination="@id/addAppointmentFragment" />
+        <action
+            android:id="@+id/action_nav_dashboard_to_appointmentDescribeFragment"
+            app:destination="@id/appointmentDescribeFragment">
+
+         <!--   <argument
+                android:name="token_id"
+                app:argType="string" />-->
+
+        </action>
+        <action
+            android:id="@+id/action_nav_dashboard_to_profile_Fragment"
+            app:destination="@id/profile_Fragment"
+           />
+        <action
+            android:id="@+id/action_nav_dashboard_to_searchDialogFragment"
+            app:destination="@id/searchDialogFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/searchDialogFragment"
+        android:name="in.cbslgroup.ucobank.ui.bottomsheets.SearchDialogFragment"
+        android:label="SearchDialogFragment" >
+        <argument
+            android:name="apt_type"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_searchDialogFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="in.cbslgroup.ucobank.ui.bottomsheets.SearchFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_search" >
+
+        <argument
+            android:name="apt_type"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_searchFragment_to_appointmentDescribeFragment"
+            app:destination="@id/appointmentDescribeFragment">
+        </action>
+        <argument
+            android:name="title"
+            app:argType="string" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/addAppointmentFragment"
+        android:name="in.cbslgroup.ucobank.ui.fragment.main.AddAppointmentFragment"
+        android:label="Add Appointment"
+        tools:layout="@layout/fragment_add_appointment" >
+        <action
+            android:id="@+id/action_addAppointmentFragment_to_bankDialogFragment"
+            app:destination="@id/bankDialogFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/appointmentDescribeFragment"
+        android:name="in.cbslgroup.ucobank.ui.fragment.main.AppointmentDescribeFragment"
+        android:label="Appointment Description"
+        tools:layout="@layout/fragment_appointment_describe" >
+
+        <argument
+            android:name="token_id"
+            app:argType="string" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/bankDialogFragment"
+        android:name="in.cbslgroup.ucobank.ui.bottomsheets.BranchDialogFragment"
+        android:label="Select Bank" />
+    <fragment
+        android:id="@+id/profile_Fragment"
+        android:name="in.cbslgroup.ucobank.ui.fragment.main.Profile_Fragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_" >
+        <action
+            android:id="@+id/action_profile_Fragment_to_appointmentDescribeFragment"
+            app:destination="@id/appointmentDescribeFragment" />
+    </fragment>
+
+
+</navigation>

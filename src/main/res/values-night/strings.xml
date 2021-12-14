@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="didn_t_have_account_register_now">Didn\'t have account ? Register Now</string>
+    <string name="next">next</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="register">Register</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="already_registered_sign_in">Already registered ? Sign In</string>
+    <string name="search">Search</string>
+    <string name="type_the_code_below">Type the code below</string>
+    <string name="or">OR</string>
+    <string name="enter_mobile_no">Enter Mobile No.</string>
+
+</resources>
